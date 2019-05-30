@@ -1,3 +1,156 @@
 * {
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100vh;
+	width: 100%;
+	position: relative;
+}
+
+.circle {
+	border: 4px solid black;
+	height: 400px;
+	width: 400px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 90%;
+}
+
+.circle > div {
+	position: absolute;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.second,
+.minute,
+.hour {
+	top: 50%;
+	left: 50%;
+	transform: translateY(-3px);
+	transform-origin: left;
+	transform: rotate(-90deg);
+}
+
+.middle {
+	height: 3%;
+	width: 3%;
+	background-color: black;
+	border-radius: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.second {
+	width: 45%;
+	height: 2px;
+	background-color: red;
+
+}
+
+.minute {
+	width: 40%;
+	height: 4px;
+	background-color: black;
+}
+
+.hour {
+	width: 35%;
+	height: 6px;
+	background-color: black;
+}
+
+/*
+.vertical {
+	height: 100%;
+	width: 3px;
+	background-color: red;
+	left: 50%;
+}
+
+.horizontal {
+	width: 100%;
+	height: 3px;
+	background-color: red;
+	top: 49%;
+}
+
+.padding {
+	height: 90%;
+	width: 90%;
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	border: 1px solid red;
+	border-radius: 100%;
+
+}
+*/
+
+
+
+.twelve {
+	top: 4%;
+	left: 46.5%;
+}
+
+.one {
+	top: 11%;
+	right: 27%;
+}
+
+.two {
+	top: 26%;
+	right: 12%;
+}
+
+.three {
+	top: 46.5%;
+	right: 5%;
+}
+
+.four {
+	bottom: 25.5%;
+	right: 13.5%;
+}
+
+.five {
+	bottom: 10%;
+	right: 27.5%;
+}
+
+.six {
+	bottom: 4%;
+	right: 48%;
+}
+
+.seven {
+	bottom: 10%;
+	left: 27%;
+}
+
+.eight {
+	bottom: 26%;
+	left: 13%;
+}
+
+.nine {
+	top: 47%;
+	left: 5%;
+}
+
+.ten {
+	top: 26.5%;
+	left: 10.5%;
+}
+
+.eleven {
+	top: 11%;
+	left: 26%;
 }
